@@ -1,0 +1,110 @@
+2025-11-19 12:57:00 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 12:57:00 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 12:57:00 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 12:57:00 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 12:57:00 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 12:57:11 | INFO     | auth.session_handler:create_session:91 | 创建新会话: 34_uWCt4koOVTWRoEhrKDAwefqAUG467qbTiVElaeno for user: user_000001
+2025-11-19 12:57:11 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 12:57:49 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 13:27:47 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 13:27:47 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 13:27:47 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 13:27:47 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 13:27:47 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 13:27:53 | INFO     | auth.session_handler:create_session:91 | 创建新会话: dY-acW6E5nmPf13STNBwBsJXqywktDRIb5SjsFm7aSE for user: user_000001
+2025-11-19 13:27:53 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 13:28:33 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:06:26 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:06:26 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:06:26 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 14:06:26 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:06:26 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 14:06:30 | INFO     | auth.session_handler:create_session:91 | 创建新会话: QZJMTM25uv8_HFV8zwJ7o4pDuRBTemVKzmS4JqWqNJg for user: user_000001
+2025-11-19 14:06:30 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 14:08:32 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:18:41 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:18:41 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:18:41 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 14:18:41 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:18:41 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 14:18:47 | INFO     | auth.session_handler:create_session:91 | 创建新会话: mW4PoXQ9qmDIkFGAZ5inRXvYtaZtjPFnJOLosPjVcSc for user: user_000001
+2025-11-19 14:18:47 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 14:19:30 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:22:44 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:22:44 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:22:44 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 14:22:44 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:22:44 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 14:22:48 | INFO     | auth.session_handler:create_session:91 | 创建新会话: QD02tlRWPVuFz-I2jc-9gXdaiEB4K4d53sh7TERxcsE for user: user_000001
+2025-11-19 14:22:48 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 14:44:41 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:44:41 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 14:44:41 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 14:44:41 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:44:41 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 14:44:46 | INFO     | auth.session_handler:create_session:91 | 创建新会话: WluDnzAMnlaEUHaAPlEWxXz7_AXB9b-fUXiKjn2kYZw for user: user_000001
+2025-11-19 14:44:46 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 14:45:15 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 15:49:33 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 15:49:33 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 15:49:33 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 15:49:33 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 15:49:33 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 15:49:38 | INFO     | auth.session_handler:create_session:91 | 创建新会话: d_95Gr7mQv-6uUPbqJERzfwhjygNLS9ebi0l8R92u-E for user: user_000001
+2025-11-19 15:49:38 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 15:50:38 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 15:50:38 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 16:21:05 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 16:21:05 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 16:21:05 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 16:21:05 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 16:21:05 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 16:21:11 | INFO     | auth.session_handler:create_session:91 | 创建新会话: nUU-5YMMCW6SxcNURFNCyM5YbcqwpDY1KuxJmZMWY10 for user: user_000001
+2025-11-19 16:21:11 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 16:22:21 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 16:22:21 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:19:25 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:19:25 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:19:25 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 17:19:25 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:19:25 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 17:19:29 | INFO     | auth.session_handler:create_session:91 | 创建新会话: xZ3UNzYxMcHXGfEnJZI37MA2zUIZ8L8u3zttK00sfwk for user: user_000001
+2025-11-19 17:19:29 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 17:20:19 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 17:20:19 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:26:49 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:26:49 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:26:49 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 17:26:49 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:26:49 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 17:26:53 | INFO     | auth.session_handler:create_session:91 | 创建新会话: wOpVm5NP-WJ12btJ8g1m7Cr0bKp2HpPerowktshTWDw for user: user_000001
+2025-11-19 17:26:53 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 17:27:25 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 17:27:25 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:32:21 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:32:21 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:32:21 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 17:32:21 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:32:21 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 17:32:31 | INFO     | auth.session_handler:create_session:91 | 创建新会话: _KxY2UAGf2rmj769DC5tL2vgsDxZYrrNBKP0-uA_Sxk for user: user_000001
+2025-11-19 17:32:31 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 17:33:11 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 17:33:11 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:45:42 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:45:42 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:45:42 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 17:45:42 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:45:42 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 17:45:47 | INFO     | auth.session_handler:create_session:91 | 创建新会话: Yx1XMlXxO1dx__EtDYwSiN4p1EyOhETpEaBKqdURyp8 for user: user_000001
+2025-11-19 17:45:47 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 17:46:45 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 17:46:45 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:56:13 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:56:13 | INFO     | auth.user_manager:_load_data:168 | Loaded 1 users and 0 sessions
+2025-11-19 17:56:13 | INFO     | auth.session_handler:__init__:53 | 会话处理器初始化完成，超时时间: 3600秒
+2025-11-19 17:56:13 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:56:13 | INFO     | storage.user_data:_load_data:47 | 已加载 1 个用户和 0 个会话
+2025-11-19 17:56:18 | INFO     | auth.session_handler:create_session:91 | 创建新会话: Zr4_cnFhB46qJWN3MeE9UQK_4sfoH5g22ltHZ31xhdU for user: user_000001
+2025-11-19 17:56:18 | INFO     | interface.cli_interface:user_login:250 | 用户 test 登录成功
+2025-11-19 17:57:20 | INFO     | utils.config:_load_external_model_config:117 | 已从外部文件加载模型配置: config/model_config.json
+2025-11-19 17:57:20 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file

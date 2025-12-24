@@ -1,0 +1,236 @@
+2025-11-19 14:08:32 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:08:32 | ERROR    | discussion.discussion_engine:initialize_discussion:109 | 讨论引擎初始化失败: 'list' object has no attribute 'info'
+2025-11-19 14:08:32 | INFO     | interface.cli_interface:run_discussion:527 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科']
+2025-11-19 14:08:32 | INFO     | discussion.discussion_engine:start_discussion:235 | 开始多智能体临床讨论
+2025-11-19 14:08:32 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 1 轮讨论
+2025-11-19 14:08:33 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 2 轮讨论
+2025-11-19 14:08:34 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 3 轮讨论
+2025-11-19 14:08:35 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 4 轮讨论
+2025-11-19 14:08:36 | INFO     | discussion.discussion_engine:_generate_final_summary:116 | 生成最终讨论汇总
+2025-11-19 14:08:36 | WARNING  | discussion.discussion_engine:_generate_final_summary:121 | 决策智能体未初始化，使用备用汇总方法
+2025-11-19 14:08:36 | INFO     | discussion.discussion_engine:_generate_backup_summary:156 | 使用备用汇总方法
+2025-11-19 14:08:36 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_b06428ed_20251119_140836.json
+2025-11-19 14:08:36 | INFO     | interface.cli_interface:show_discussion_result:557 | 开始显示讨论结果
+2025-11-19 14:19:30 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:19:30 | ERROR    | discussion.discussion_engine:initialize_discussion:109 | 讨论引擎初始化失败: 'list' object has no attribute 'info'
+2025-11-19 14:19:30 | INFO     | interface.cli_interface:run_discussion:527 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科']
+2025-11-19 14:19:30 | INFO     | discussion.discussion_engine:start_discussion:235 | 开始多智能体临床讨论
+2025-11-19 14:19:30 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 1 轮讨论
+2025-11-19 14:19:31 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 2 轮讨论
+2025-11-19 14:19:32 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 3 轮讨论
+2025-11-19 14:19:33 | INFO     | discussion.discussion_engine:_generate_final_summary:116 | 生成最终讨论汇总
+2025-11-19 14:19:33 | WARNING  | discussion.discussion_engine:_generate_final_summary:121 | 决策智能体未初始化
+2025-11-19 14:19:33 | INFO     | discussion.discussion_engine:_generate_backup_summary:156 | 使用备用汇总方法
+2025-11-19 14:19:33 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_3e4936e3_20251119_141933.json
+2025-11-19 14:19:33 | INFO     | interface.cli_interface:show_discussion_result:557 | 开始显示讨论结果
+2025-11-19 14:45:15 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 14:45:15 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 14:45:15 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 心内科
+2025-11-19 14:45:15 | DEBUG    | discussion.discussion_engine:_initialize_agents:200 | 智能体 心内科 初始化成功
+2025-11-19 14:45:16 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 14:45:16 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 肾内科
+2025-11-19 14:45:16 | DEBUG    | discussion.discussion_engine:_initialize_agents:200 | 智能体 肾内科 初始化成功
+2025-11-19 14:45:16 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 内分泌科 (内分泌科)
+2025-11-19 14:45:16 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 内分泌科
+2025-11-19 14:45:16 | DEBUG    | discussion.discussion_engine:_initialize_agents:200 | 智能体 内分泌科 初始化成功
+2025-11-19 14:45:16 | INFO     | discussion.discussion_engine:_initialize_agents:204 | 成功初始化 3 个智能体（共选择 3 个）
+2025-11-19 14:45:16 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查)
+2025-11-19 14:45:16 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: DecisionMaker (决策专家)
+2025-11-19 14:45:16 | INFO     | discussion.discussion_engine:initialize_discussion:105 | 讨论引擎初始化成功，选择了 3 个智能体
+2025-11-19 14:45:16 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科']
+2025-11-19 14:45:16 | INFO     | discussion.discussion_engine:start_discussion:235 | 开始多智能体临床讨论
+2025-11-19 14:45:16 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 1 轮讨论
+2025-11-19 14:45:24 | WARNING  | agents.base_agent:invoke:78 | API调用失败 (尝试 1/3): Connection error.
+2025-11-19 14:45:42 | WARNING  | agents.base_agent:invoke:78 | API调用失败 (尝试 2/3): Connection error.
+2025-11-19 15:50:38 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 15:50:38 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 15:50:38 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 心内科
+2025-11-19 15:50:38 | DEBUG    | discussion.discussion_engine:_initialize_agents:200 | 智能体 心内科 初始化成功
+2025-11-19 15:50:38 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 15:50:38 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 肾内科
+2025-11-19 15:50:38 | DEBUG    | discussion.discussion_engine:_initialize_agents:200 | 智能体 肾内科 初始化成功
+2025-11-19 15:50:38 | INFO     | discussion.discussion_engine:_initialize_agents:204 | 成功初始化 2 个智能体（共选择 2 个）
+2025-11-19 15:50:38 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查)
+2025-11-19 15:50:39 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: DecisionMaker (决策专家)
+2025-11-19 15:50:39 | INFO     | discussion.discussion_engine:initialize_discussion:105 | 讨论引擎初始化成功，选择了 2 个智能体
+2025-11-19 15:50:39 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科']
+2025-11-19 15:50:39 | INFO     | discussion.discussion_engine:start_discussion:235 | 开始多智能体临床讨论
+2025-11-19 15:50:39 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 1 轮讨论
+2025-11-19 15:50:43 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 2 轮讨论
+2025-11-19 15:50:47 | INFO     | discussion.discussion_engine:start_discussion:245 | 开始第 3 轮讨论
+2025-11-19 15:50:51 | INFO     | discussion.discussion_engine:_generate_final_summary:116 | 生成最终讨论汇总
+2025-11-19 15:51:12 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_d3a297a0_20251119_155112.json
+2025-11-19 15:51:12 | INFO     | interface.cli_interface:show_discussion_result:552 | 开始显示讨论结果
+2025-11-19 16:22:21 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 16:22:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 16:22:21 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 心内科
+2025-11-19 16:22:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 心内科 初始化成功
+2025-11-19 16:22:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 16:22:21 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 肾内科
+2025-11-19 16:22:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 肾内科 初始化成功
+2025-11-19 16:22:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 内分泌科 (内分泌科)
+2025-11-19 16:22:21 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 内分泌科
+2025-11-19 16:22:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 内分泌科 初始化成功
+2025-11-19 16:22:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 呼吸与危重症医学科 (呼吸与危重症医学科)
+2025-11-19 16:22:22 | INFO     | agents.specialty_agents:__init__:52 | 初始化专科智能体: 呼吸与危重症医学科
+2025-11-19 16:22:22 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 呼吸与危重症医学科 初始化成功
+2025-11-19 16:22:22 | INFO     | discussion.discussion_engine:_initialize_agents:209 | 成功初始化 4 个智能体（共选择 4 个）
+2025-11-19 16:22:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查智能体)
+2025-11-19 16:22:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: DecisionMaker (决策专家智能体)
+2025-11-19 16:22:22 | INFO     | discussion.discussion_engine:initialize_discussion:103 | 逻辑检查和决策智能体初始化成功
+2025-11-19 16:22:22 | INFO     | discussion.discussion_engine:initialize_discussion:110 | 讨论引擎初始化成功，选择了 4 个智能体
+2025-11-19 16:22:22 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '呼吸与危重症医学科']
+2025-11-19 16:22:22 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 16:22:22 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 16:22:33 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 16:22:43 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 16:22:52 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 16:23:17 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 16:23:17 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 16:23:17 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_e7b5f9f7_20251119_162317.json
+2025-11-19 16:23:17 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_e7b5f9f7_20251119_162317.json
+2025-11-19 17:20:19 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:20:19 | ERROR    | discussion.discussion_engine:initialize_discussion:114 | 讨论引擎初始化失败: module 'datetime' has no attribute 'now'
+2025-11-19 17:20:19 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '呼吸与危重症医学科', '临床药师']
+2025-11-19 17:20:19 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 17:20:19 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 17:20:20 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 17:20:21 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 17:20:22 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 17:20:22 | WARNING  | discussion.discussion_engine:_generate_final_summary:126 | 决策智能体未初始化
+2025-11-19 17:20:22 | INFO     | discussion.discussion_engine:_generate_backup_summary:161 | 使用备用汇总方法
+2025-11-19 17:20:22 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 17:20:22 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 17:20:22 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_027667e8_20251119_172022.json
+2025-11-19 17:20:22 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_027667e8_20251119_172022.json
+2025-11-19 17:27:25 | ERROR    | discussion.discussion_engine:initialize_discussion:114 | 讨论引擎初始化失败: function missing required argument 'year' (pos 1)
+2025-11-19 17:27:25 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '呼吸与危重症医学科']
+2025-11-19 17:27:25 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 17:27:25 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 17:27:26 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 17:27:27 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 17:27:28 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 17:27:28 | WARNING  | discussion.discussion_engine:_generate_final_summary:126 | 决策智能体未初始化
+2025-11-19 17:27:28 | INFO     | discussion.discussion_engine:_generate_backup_summary:161 | 使用备用汇总方法
+2025-11-19 17:27:28 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 17:27:28 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 17:27:28 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_1305412b_20251119_172728.json
+2025-11-19 17:27:28 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_1305412b_20251119_172728.json
+2025-11-19 17:33:11 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:33:11 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 17:33:11 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 心内科
+2025-11-19 17:33:11 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 心内科 初始化成功
+2025-11-19 17:33:12 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 17:33:12 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 肾内科
+2025-11-19 17:33:12 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 肾内科 初始化成功
+2025-11-19 17:33:12 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 内分泌科 (内分泌科)
+2025-11-19 17:33:12 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 内分泌科
+2025-11-19 17:33:12 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 内分泌科 初始化成功
+2025-11-19 17:33:12 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 呼吸与危重症医学科 (呼吸与危重症医学科)
+2025-11-19 17:33:12 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 呼吸与危重症医学科
+2025-11-19 17:33:12 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 呼吸与危重症医学科 初始化成功
+2025-11-19 17:33:12 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 临床药师 (临床药师)
+2025-11-19 17:33:12 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 临床药师
+2025-11-19 17:33:12 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 临床药师 初始化成功
+2025-11-19 17:33:12 | INFO     | discussion.discussion_engine:_initialize_agents:209 | 成功初始化 5 个智能体（共选择 5 个）
+2025-11-19 17:33:12 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查智能体)
+2025-11-19 17:33:12 | ERROR    | discussion.discussion_engine:initialize_discussion:105 | 逻辑检查和决策智能体初始化失败: BaseAgent.__init__() missing 1 required positional argument: 'system_instruction'
+2025-11-19 17:33:12 | INFO     | discussion.discussion_engine:initialize_discussion:110 | 讨论引擎初始化成功，选择了 5 个智能体
+2025-11-19 17:33:12 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '呼吸与危重症医学科', '临床药师']
+2025-11-19 17:33:12 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 17:33:12 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 17:33:33 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 17:33:53 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 17:34:10 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 17:34:10 | WARNING  | discussion.discussion_engine:_generate_final_summary:126 | 决策智能体未初始化
+2025-11-19 17:34:10 | INFO     | discussion.discussion_engine:_generate_backup_summary:161 | 使用备用汇总方法
+2025-11-19 17:34:10 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 17:34:10 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 17:34:10 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_c2b08b70_20251119_173410.json
+2025-11-19 17:34:10 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_c2b08b70_20251119_173410.json
+2025-11-19 17:46:45 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:46:45 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 17:46:45 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 心内科
+2025-11-19 17:46:45 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 心内科 初始化成功
+2025-11-19 17:46:45 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 17:46:45 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 肾内科
+2025-11-19 17:46:45 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 肾内科 初始化成功
+2025-11-19 17:46:46 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 内分泌科 (内分泌科)
+2025-11-19 17:46:46 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 内分泌科
+2025-11-19 17:46:46 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 内分泌科 初始化成功
+2025-11-19 17:46:46 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 影像科 (影像科)
+2025-11-19 17:46:46 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 影像科
+2025-11-19 17:46:46 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 影像科 初始化成功
+2025-11-19 17:46:46 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 呼吸与危重症医学科 (呼吸与危重症医学科)
+2025-11-19 17:46:46 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 呼吸与危重症医学科
+2025-11-19 17:46:46 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 呼吸与危重症医学科 初始化成功
+2025-11-19 17:46:46 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 临床药师 (临床药师)
+2025-11-19 17:46:46 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 临床药师
+2025-11-19 17:46:46 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 临床药师 初始化成功
+2025-11-19 17:46:46 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 感染科 (感染科)
+2025-11-19 17:46:46 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 感染科
+2025-11-19 17:46:46 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 感染科 初始化成功
+2025-11-19 17:46:46 | INFO     | discussion.discussion_engine:_initialize_agents:209 | 成功初始化 7 个智能体（共选择 7 个）
+2025-11-19 17:46:47 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查智能体)
+2025-11-19 17:46:47 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: DecisionMaker (决策专家智能体)
+2025-11-19 17:46:47 | INFO     | discussion.discussion_engine:initialize_discussion:103 | 逻辑检查和决策智能体初始化成功
+2025-11-19 17:46:47 | INFO     | discussion.discussion_engine:initialize_discussion:110 | 讨论引擎初始化成功，选择了 7 个智能体
+2025-11-19 17:46:47 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '影像科', '呼吸与危重症医学科', '临床药师', '感染科']
+2025-11-19 17:46:47 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 17:46:47 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 17:47:14 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 17:47:41 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 17:48:06 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 17:48:06 | ERROR    | discussion.discussion_engine:_generate_final_summary:156 | 生成最终汇总失败: 'DecisionMakersAgent' object has no attribute 'make_final_decision'
+2025-11-19 17:48:06 | INFO     | discussion.discussion_engine:_generate_backup_summary:161 | 使用备用汇总方法
+2025-11-19 17:48:06 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 17:48:06 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 17:48:06 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_2812bfd9_20251119_174806.json
+2025-11-19 17:48:06 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_2812bfd9_20251119_174806.json
+2025-11-19 17:50:23 | ERROR    | storage.discussion_storage:export_to_docx:195 | 导出Word文档失败: list index out of range
+2025-11-19 17:50:23 | ERROR    | storage.discussion_storage:export_discussion:534 | 导出失败: list index out of range
+2025-11-19 17:57:20 | INFO     | agents.agent_registry:load_custom_agents:189 | Loaded 0 custom agents from file
+2025-11-19 17:57:20 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 心内科 (心内科)
+2025-11-19 17:57:20 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 心内科
+2025-11-19 17:57:20 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 心内科 初始化成功
+2025-11-19 17:57:20 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 肾内科 (肾内科)
+2025-11-19 17:57:20 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 肾内科
+2025-11-19 17:57:20 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 肾内科 初始化成功
+2025-11-19 17:57:20 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 内分泌科 (内分泌科)
+2025-11-19 17:57:20 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 内分泌科
+2025-11-19 17:57:20 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 内分泌科 初始化成功
+2025-11-19 17:57:20 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 影像科 (影像科)
+2025-11-19 17:57:20 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 影像科
+2025-11-19 17:57:20 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 影像科 初始化成功
+2025-11-19 17:57:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 呼吸与危重症医学科 (呼吸与危重症医学科)
+2025-11-19 17:57:21 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 呼吸与危重症医学科
+2025-11-19 17:57:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 呼吸与危重症医学科 初始化成功
+2025-11-19 17:57:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 风湿免疫科 (风湿免疫科)
+2025-11-19 17:57:21 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 风湿免疫科
+2025-11-19 17:57:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 风湿免疫科 初始化成功
+2025-11-19 17:57:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 营养科 (营养科)
+2025-11-19 17:57:21 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 营养科
+2025-11-19 17:57:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 营养科 初始化成功
+2025-11-19 17:57:21 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 临床药师 (临床药师)
+2025-11-19 17:57:21 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 临床药师
+2025-11-19 17:57:21 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 临床药师 初始化成功
+2025-11-19 17:57:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: 感染科 (感染科)
+2025-11-19 17:57:22 | INFO     | agents.specialty_agents:__init__:53 | 初始化专科智能体: 感染科
+2025-11-19 17:57:22 | DEBUG    | discussion.discussion_engine:_initialize_agents:205 | 智能体 感染科 初始化成功
+2025-11-19 17:57:22 | INFO     | discussion.discussion_engine:_initialize_agents:209 | 成功初始化 9 个智能体（共选择 9 个）
+2025-11-19 17:57:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: LogicAgent (逻辑检查智能体)
+2025-11-19 17:57:22 | INFO     | agents.base_agent:__init__:132 | 初始化智能体: DecisionMaker (决策专家智能体)
+2025-11-19 17:57:22 | INFO     | discussion.discussion_engine:initialize_discussion:103 | 逻辑检查和决策智能体初始化成功
+2025-11-19 17:57:22 | INFO     | discussion.discussion_engine:initialize_discussion:110 | 讨论引擎初始化成功，选择了 9 个智能体
+2025-11-19 17:57:22 | INFO     | interface.cli_interface:run_discussion:522 | 开始讨论，参与智能体: ['心内科', '肾内科', '内分泌科', '影像科', '呼吸与危重症医学科', '风湿免疫科', '营养科', '临床药师', '感染科']
+2025-11-19 17:57:22 | INFO     | discussion.discussion_engine:start_discussion:234 | 开始多智能体临床讨论
+2025-11-19 17:57:22 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 1 轮讨论
+2025-11-19 17:57:58 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 2 轮讨论
+2025-11-19 17:58:32 | INFO     | discussion.discussion_engine:start_discussion:244 | 开始第 3 轮讨论
+2025-11-19 17:59:08 | INFO     | discussion.discussion_engine:_generate_final_summary:121 | 生成最终讨论汇总
+2025-11-19 17:59:34 | INFO     | interface.cli_interface:run_discussion:526 | 讨论结果类型: <class 'dict'>
+2025-11-19 17:59:34 | INFO     | interface.cli_interface:run_discussion:527 | 讨论结果键: ['metadata', 'medical_context', 'discussion_process', 'clinical_summary', 'evaluation_metrics']
+2025-11-19 17:59:34 | INFO     | storage.discussion_storage:save_discussion:73 | 讨论记录已保存: data\discussions\json\user_000001_a3ca5bcb_20251119_175934.json
+2025-11-19 17:59:34 | INFO     | interface.cli_interface:run_discussion:549 | 讨论记录已保存，ID: data\discussions\json\user_000001_a3ca5bcb_20251119_175934.json
+2025-11-19 17:59:53 | ERROR    | storage.discussion_storage:export_to_docx:195 | 导出Word文档失败: list index out of range
+2025-11-19 17:59:53 | ERROR    | storage.discussion_storage:export_discussion:534 | 导出失败: list index out of range

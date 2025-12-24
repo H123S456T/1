@@ -1,0 +1,27 @@
+{
+  "model_config": {
+    "engine": "vllm",
+    "api_base": "http://10.124.0.7:9001/v1",
+    "model_name": "Qwen3-next",
+    "temperature": 0.3,
+    "max_tokens": 100000,
+    "timeout": 60,
+    "max_retries": 3
+  },
+  "available_models": [
+    {
+      "name": "vllm-local",
+      "engine": "vllm",
+      "api_base": "http://10.124.0.7:9001/v1",
+      "model_name": "Qwen3-next",
+      "description": "本地VLLM服务"
+    },
+    {
+      "name": "deepseek-cloud",
+      "engine": "deepseek",
+      "api_base": "https://api.deepseek.com/v1",
+      "model_name": "deepseek-chat",
+      "description": "DeepSeek云服务"
+    }
+  ]
+}

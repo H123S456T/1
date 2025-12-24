@@ -1,0 +1,57 @@
+# 核心依赖
+loguru>=0.7.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Web界面
+streamlit>=1.28.0
+plotly>=5.15.0
+
+# 文档处理
+python-docx>=0.8.11
+pandas>=2.0.0
+openpyxl>=3.1.0
+reportlab>=4.0.0  # PDF导出
+
+# 数据处理
+numpy>=1.24.0
+pydantic>=2.0.0  # 数据验证
+
+# 安全认证
+pyjwt>=2.8.0
+bcrypt>=4.0.0  # 密码加密
+cryptography>=41.0.0
+
+# 网络请求
+requests>=2.31.0
+aiohttp>=3.8.0  # 异步支持
+
+# 工具库
+click>=8.1.0  # 命令行工具
+rich>=13.0.0  # 终端美化
+typer>=0.9.0  # 现代CLI
+
+# 开发工具
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# 可选依赖（根据后端选择）
+# vllm>=0.2.0  # 如果使用vLLM后端
+# anthropic>=0.7.0  # 如果使用Claude
+# cohere>=4.0.0  # 如果使用Cohere
+
+loguru>=0.7.0
+python-jose>=3.3.0
+python-docx>=0.8.11
+pydantic>=1.10.0
+dataclasses-json>=0.5.0
+click>=8.1.0
+rich>=13.0.0
+
+
+#导航到该文件所在的目录，然后执行以下命令
+#pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
+#安装预编译版本以防出错 
+#pip install pyarrow --prefer-binary -i https://pypi.tuna.tsinghua.edu.cn/simple/ 

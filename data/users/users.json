@@ -1,0 +1,22 @@
+{
+  "user_000001": {
+    "user_id": "user_000001",
+    "username": "test",
+    "password": "1",
+    "email": "",
+    "full_name": "",
+    "department": "",
+    "role": "user",
+    "created_at": "2025-11-18T17:13:07.611389",
+    "last_login": "2025-11-22T16:03:54.907689",
+    "login_count": 58,
+    "is_active": true,
+    "preferences": {
+      "default_rounds": 3,
+      "auto_save": true,
+      "export_format": "docx",
+      "language": "zh-CN"
+    },
+    "custom_agents": []
+  }
+}
